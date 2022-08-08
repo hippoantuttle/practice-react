@@ -30,6 +30,8 @@ function Home() {
               summary={movie.summary}
               genres={movie.genres}
               year={movie.year}
+              id={movie.id}
+              key={movie.id}
             />
           ))}
         </div>
